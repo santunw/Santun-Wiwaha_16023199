@@ -1,0 +1,17 @@
+Komunikasi dibagi menjadi 3 macam, yaitu:
+1.	Simplex
+Komunikasi satu arah
+2.	Half Duplex
+Komunikasi dua arah tetapi tidak dapat berlangsung secara bersamaan
+3.	Full Duplex
+Komunikasi dua arah yang dapat berlangsung secara bersamaan
+
+Beberapa jenis komunikas pada robot :
+1.	SPI
+SPI digunakan untuk komunikasi antara master (mikrokontroler) dengan sleve (sensor). Pada SPI komunikasi secara full duplex dan membutuhkan 4 pin yaitu MOSI, MISO, SCLK, dan SS/CS. SPI juga memiliki kecepatan transfer data yang lebih cepat dibandingkan I2C.
+2.	I2C
+I2C digunakan untuk komonikasi antara master (microcontroller) dengan sleve (sensor). Berbeda dengan SPI, hanya menggunakan 2 pin yaitu SDA dan SCL. Pada I2C terdapat data bit.
+3.	UART
+UART adalah protocol komunikasi perangkat ke perangakat yang banyak digunakan. UART dapat berkomunikasi secara full duplex atau half duplex. Sama seperti I2C, UART memiliki data bit.
+4.	CAN
+CAN-bus adalah standar bus kendaraan yang memungkinkan mikrokontroler dan perangkat untuk berkomunikasi tanpa komputer host. CAN berkomunikasi secara half duplex. CAN dirancang untuk komunikasi mikrokontroler dilingkungan otomotif. CAN memiliki jarak komonikasi langsung maksimum mencapai 10 km.
